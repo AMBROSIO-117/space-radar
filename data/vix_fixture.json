@@ -1,0 +1,53 @@
+{
+  "context_items": [
+    {
+      "url": "https://www.cboe.com/tradable-products/vix/",
+      "metadata": {
+        "title": "Cboe Volatility Index"
+      },
+      "text": "Cboe Volatility Index VIX is a leading measure of market expectations of near-term volatility conveyed by SPX option prices. VIX options and futures have unique characteristics and behave differently than other financial products. Education, VIX FAQs, methodology, options, futures, term structure, risk management, portfolio hedging."
+    },
+    {
+      "url": "https://www.cboe.com/tradable-products/vix/vix-historical-data",
+      "metadata": {
+        "title": "Historical Data for Cboe VIX Index"
+      },
+      "text": "Historical Data for Cboe VIX Index and other volatility indices. Daily closing values for the Cboe Volatility Index VIX Index from 1990 to present updated daily. Go beyond the basics with custom VIX options and futures historical data on-demand through DataShop."
+    }
+  ],
+  "vix_rows": [
+    {"date": "2020-03-16", "close": 82.69},
+    {"date": "2020-03-17", "close": 75.91},
+    {"date": "2020-03-18", "close": 76.45},
+    {"date": "2024-08-05", "close": 38.57},
+    {"date": "2025-04-07", "close": 46.98},
+    {"date": "2026-05-08", "close": 16.90},
+    {"date": "2026-05-11", "close": 18.39},
+    {"date": "2026-05-12", "close": 17.82},
+    {"date": "2026-05-13", "close": 18.01},
+    {"date": "2026-05-14", "close": 17.44},
+    {"date": "2026-05-15", "close": 16.86},
+    {"date": "2026-05-18", "close": 17.15},
+    {"date": "2026-05-19", "close": 18.10},
+    {"date": "2026-05-20", "close": 18.74},
+    {"date": "2026-05-21", "close": 19.20},
+    {"date": "2026-05-22", "close": 20.02},
+    {"date": "2026-05-26", "close": 19.78},
+    {"date": "2026-05-27", "close": 18.41},
+    {"date": "2026-05-28", "close": 17.91},
+    {"date": "2026-05-29", "close": 18.63},
+    {"date": "2026-06-02", "close": 17.40},
+    {"date": "2026-06-03", "close": 16.95},
+    {"date": "2026-06-04", "close": 17.22},
+    {"date": "2026-06-05", "close": 16.80},
+    {"date": "2026-06-08", "close": 17.05},
+    {"date": "2026-06-09", "close": 17.66},
+    {"date": "2026-06-10", "close": 18.02},
+    {"date": "2026-06-11", "close": 18.91},
+    {"date": "2026-06-12", "close": 19.44},
+    {"date": "2026-06-15", "close": 18.90},
+    {"date": "2026-06-16", "close": 18.70},
+    {"date": "2026-06-17", "close": 18.44},
+    {"date": "2026-06-18", "close": 16.40}
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "space-procurement-signal-radar",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Apify Actor that finds DACH space-tech procurement pressure signals using Tavily and optional n8n webhook delivery.",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "dependencies": {
+    "apify": "^3.7.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

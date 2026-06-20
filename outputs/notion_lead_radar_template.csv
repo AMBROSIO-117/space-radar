@@ -1,0 +1,4 @@
+Company,Region,Segment,Likely Need,Score,Urgency,Price Clue,Evidence URL,Seller Angle,Next Action,Confidence
+Reflex Aerospace,Germany,"Smallsat; Satellite Manufacturing","TVAC; Environmental Qualification",,"Medium","Proxy only - validate with live sources",,"Reduce schedule risk before qualification","Verify","Low"
+DCUBED,Germany,"Deployables; Space Hardware","Vibration; Shock; TVAC",,"Medium","Proxy only - validate with live sources",,"Support deployable hardware qualification campaign","Verify","Low"
+OroraTech,Germany,"Earth Observation; Thermal Payloads","TVAC; Cleanroom; Environmental Qualification",,"Medium","Proxy only - validate with live sources",,"Support repeated constellation hardware testing","Verify","Low"

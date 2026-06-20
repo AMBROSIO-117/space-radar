@@ -1,0 +1,6 @@
+Query,Region,Purpose,Priority,Ran?,Result Count,Notes
+"""CubeSat"" ""thermal vacuum"" Germany",Germany,Buyer Discovery,High,FALSE,,"Find smallsat companies with TVAC language"
+"""Raumfahrt"" ""Thermovakuum"" ""Startup""",Germany,Buyer Discovery,High,FALSE,,"German-language home-game search"
+"""Vibrationsprüfung"" ""Raumfahrt"" ""Ausschreibung""",Germany,Price Discovery,High,FALSE,,"Find tender/budget clues"
+"""ESA tender"" ""thermal vacuum"" ""CubeSat""",Europe,Price Discovery,Medium,FALSE,,"Find ESA procurement proxies"
+"""thermal vacuum testing"" ""Germany"" ""aerospace""",Germany,Seller Discovery,Medium,FALSE,,"Find labs/sellers and price proxy pages"

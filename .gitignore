@@ -1,0 +1,13 @@
+.DS_Store
+.env
+*.log
+*.zip
+node_modules/
+apify_storage/
+storage/
+__pycache__/
+*.pyc
+.Rhistory
+work/pycache/
+outputs/.Rhistory
+

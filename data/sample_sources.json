@@ -1,0 +1,104 @@
+{
+  "question": "What public signals suggest builders need better ways to decide which Apify Actor is worth paying for?",
+  "arena": "Apify Actor marketplace and paid web data",
+  "sources": [
+    {
+      "title": "Apify Actor Ideas",
+      "url": "https://apify.com/ideas",
+      "actor": "provided-context/manual-source",
+      "summary": "Apify presents Actor ideas across categories such as scrapers, API wrappers, AI tools, and agents.",
+      "signals": [
+        {
+          "type": "marketplace_signal",
+          "text": "There are many possible Actor categories, which creates a source-selection problem for builders.",
+          "relevance": 5,
+          "freshness": 4,
+          "credibility": 5,
+          "actionability": 5
+        },
+        {
+          "type": "proof_artifact",
+          "text": "A useful meta-tool would help builders choose an Actor idea and explain why it is worth building or running.",
+          "relevance": 5,
+          "freshness": 4,
+          "credibility": 4,
+          "actionability": 5
+        }
+      ]
+    },
+    {
+      "title": "Website Content Crawler",
+      "url": "https://apify.com/apify/website-content-crawler",
+      "actor": "apify/website-content-crawler",
+      "summary": "The Actor crawls websites and extracts clean text or Markdown for LLM, RAG, and AI application use cases.",
+      "signals": [
+        {
+          "type": "llm_context_need",
+          "text": "The Actor is already positioned for feeding AI models, which makes it a strong candidate for evidence collection.",
+          "relevance": 5,
+          "freshness": 5,
+          "credibility": 5,
+          "actionability": 4
+        },
+        {
+          "type": "actor_choice_gap",
+          "text": "The Actor retrieves useful content, but it does not decide whether the crawl was worth paying for.",
+          "relevance": 5,
+          "freshness": 5,
+          "credibility": 5,
+          "actionability": 5
+        }
+      ]
+    },
+    {
+      "title": "Google Search Scraper",
+      "url": "https://apify.com/apify/google-search-scraper",
+      "actor": "apify/google-search-scraper",
+      "summary": "The Actor can discover search results and candidate public sources for a question.",
+      "signals": [
+        {
+          "type": "actor_choice_gap",
+          "text": "Search discovery produces candidate sources, but the agent still needs a ranking method for what to crawl next.",
+          "relevance": 5,
+          "freshness": 4,
+          "credibility": 5,
+          "actionability": 5
+        },
+        {
+          "type": "pricing_signal",
+          "text": "Search is an early paid/live call, so it needs a ledger entry explaining why the call was made.",
+          "relevance": 4,
+          "freshness": 4,
+          "credibility": 4,
+          "actionability": 4
+        }
+      ]
+    }
+  ],
+  "ledger": [
+    {
+      "actor": "provided-context/manual-source",
+      "reason": "Seed the demo with known Apify idea context before API wiring",
+      "input": "Apify Actor ideas page",
+      "output": "Actor categories and idea framing",
+      "cost_proxy": "free provided context",
+      "signal_value": 4
+    },
+    {
+      "actor": "apify/website-content-crawler",
+      "reason": "Representative crawler for source extraction in LLM workflows",
+      "input": "https://apify.com/apify/website-content-crawler",
+      "output": "Crawler capability and LLM/RAG positioning",
+      "cost_proxy": "pay per usage when run on Apify",
+      "signal_value": 5
+    },
+    {
+      "actor": "apify/google-search-scraper",
+      "reason": "Representative discovery Actor for finding candidate sources",
+      "input": "query about Apify Actor selection and paid data",
+      "output": "Candidate sources to rank and crawl",
+      "cost_proxy": "pay per usage when run on Apify",
+      "signal_value": 4
+    }
+  ]
+}

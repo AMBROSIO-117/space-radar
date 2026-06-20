@@ -1,0 +1,83 @@
+{
+  "title": "Space Procurement Signal Radar input",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "analystPrompt": {
+      "title": "Forward deployed analyst prompt",
+      "type": "string",
+      "description": "Plain-English task for the Actor. Tell it what market, buyer, seller, evidence, and output you want.",
+      "editor": "textarea",
+      "default": "Find DACH space-tech companies likely to need thermal vacuum testing soon. Focus on evidence, urgency, price or budget clues, and next action for a forward deployed analyst."
+    },
+    "nicheNeed": {
+      "title": "Niche thing to sell",
+      "type": "string",
+      "description": "The specific product or service you want to find buyers for.",
+      "editor": "textfield",
+      "default": "thermal vacuum testing"
+    },
+    "region": {
+      "title": "Region",
+      "type": "string",
+      "description": "Geographic focus for the search.",
+      "editor": "textfield",
+      "default": "Germany DACH"
+    },
+    "queries": {
+      "title": "Search queries",
+      "type": "array",
+      "description": "Optional search queries. Leave empty to use the default DACH space-tech query pack.",
+      "editor": "stringList",
+      "default": []
+    },
+    "maxResultsPerQuery": {
+      "title": "Max results per query",
+      "type": "integer",
+      "description": "How many Tavily results to request per search query.",
+      "editor": "number",
+      "default": 5,
+      "minimum": 1,
+      "maximum": 10
+    },
+    "maxLeads": {
+      "title": "Max ranked leads",
+      "type": "integer",
+      "description": "Maximum number of scored leads to keep in the final report.",
+      "editor": "number",
+      "default": 10,
+      "minimum": 1,
+      "maximum": 25
+    },
+    "searchDepth": {
+      "title": "Tavily search depth",
+      "type": "string",
+      "description": "Use basic for cheaper/faster demo runs. Advanced costs more Tavily credits.",
+      "editor": "select",
+      "default": "basic",
+      "enum": ["basic", "advanced", "fast", "ultra-fast"],
+      "enumTitles": ["basic", "advanced", "fast", "ultra-fast"]
+    },
+    "tavilyApiKey": {
+      "title": "Tavily API key",
+      "type": "string",
+      "description": "Optional here if TAVILY_API_KEY is set as an Actor secret/environment variable.",
+      "editor": "textfield",
+      "isSecret": true
+    },
+    "n8nWebhookUrl": {
+      "title": "n8n webhook URL",
+      "type": "string",
+      "description": "Optional. If provided, the Actor POSTs the ranked brief to this webhook.",
+      "editor": "textfield"
+    },
+    "dryRun": {
+      "title": "Dry run without Tavily",
+      "type": "boolean",
+      "description": "Use sample results so the Actor can run without credentials.",
+      "editor": "checkbox",
+      "default": false
+    }
+  },
+  "required": ["analystPrompt", "nicheNeed", "region"]
+}

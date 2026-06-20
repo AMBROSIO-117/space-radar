@@ -1,0 +1,102 @@
+{
+  "project": "Space Procurement Signal Radar",
+  "primary_niche_need": "thermal vacuum testing",
+  "region": "Germany DACH",
+  "entities": {
+    "buyer": "Organization that may need a niche space-related product or service.",
+    "seller": "Organization that can provide the niche product or service.",
+    "need": "Specific product or service the buyer may need.",
+    "procurement_signal": "Public evidence suggesting possible need.",
+    "urgency_trigger": "Time-based reason the need may matter soon.",
+    "price_budget_clue": "Evidence about affordability, budget, awards, tenders, or comparable pricing.",
+    "evidence_source": "URL or document supporting a claim.",
+    "lead": "Buyer plus likely need plus evidence plus score.",
+    "next_action": "Human action after reviewing the lead."
+  },
+  "buyer_types": [
+    "smallsat manufacturer",
+    "CubeSat team",
+    "payload company",
+    "propulsion company",
+    "deployable hardware company",
+    "avionics company",
+    "research institute"
+  ],
+  "needs": [
+    "thermal vacuum testing",
+    "vibration testing",
+    "shock testing",
+    "radiation testing",
+    "cleanroom assembly",
+    "space-grade connectors",
+    "harnessing and cable assemblies"
+  ],
+  "signal_classes": {
+    "need_fit": [
+      "satellite",
+      "CubeSat",
+      "nanosatellite",
+      "payload",
+      "propulsion",
+      "deployable",
+      "avionics"
+    ],
+    "urgency": [
+      "launch",
+      "mission",
+      "delivery",
+      "qualification",
+      "contract",
+      "selected",
+      "awarded",
+      "prototype"
+    ],
+    "dependency": [
+      "thermal vacuum",
+      "TVAC",
+      "Thermovakuum",
+      "vibration",
+      "Vibrationspruefung",
+      "shock",
+      "radiation",
+      "ECSS",
+      "cleanroom"
+    ],
+    "small_company_fit": [
+      "startup",
+      "SME",
+      "Mittelstand",
+      "spin-off",
+      "ESA BIC",
+      "founded",
+      "venture"
+    ],
+    "price_budget_clue": [
+      "tender",
+      "award",
+      "grant",
+      "funding",
+      "ESA",
+      "DLR",
+      "Horizon Europe",
+      "EUR",
+      "contract value",
+      "Ausschreibung"
+    ],
+    "contactability": [
+      "contact",
+      "procurement",
+      "supplier",
+      "partner",
+      "imprint",
+      "Impressum",
+      "email"
+    ]
+  },
+  "score_bands": {
+    "80_100": "Strong lead: verify source and find technical/procurement contact.",
+    "60_79": "Good lead: research one level deeper.",
+    "40_59": "Weak but interesting: keep if evidence is fresh.",
+    "0_39": "Not a lead yet: use only as source/context."
+  }
+}

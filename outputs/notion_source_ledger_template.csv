@@ -1,0 +1,4 @@
+Source,Actor / Tool,URL,Query,Evidence Type,Used In Lead,Notes
+Google Search Scraper,Apify Search,,"""CubeSat"" ""thermal vacuum"" Germany","Need; Urgency",,"Build candidate universe"
+Website Content Crawler,Apify Crawler,,"Candidate company URLs from search results","Need; Dependency; Contact",,"Extract source-backed evidence"
+Fraunhofer HHI ecosystem anchor,Manual,https://www.hhi.fraunhofer.de/en/departments/pn/research-groups/free-space-optical-systems/space-laser-communications.html,"space laser communications Germany partners","Need; Ecosystem",,"Use as ecosystem/source vocabulary anchor"
