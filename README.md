@@ -50,6 +50,8 @@ The Actor:
 
 Start here:
 
+- [Analyst coding and Codex 101](docs/ANALYST_CODING_AND_CODEX_101.md)
+- [Apify hackathon recovery audit](docs/HACKATHON_RECOVERY_AUDIT.md)
 - [Single source of truth](docs/SINGLE_SOURCE_OF_TRUTH.md)
 - [Demo runbook](docs/DEMO_RUNBOOK.md)
 - [GitHub push guide](docs/GITHUB_PUSH.md)
@@ -140,4 +142,3 @@ app/                             Legacy prototypes
 ## Legacy Exploration
 
 Earlier explorations are kept for context, including VIX Learning Radar and Apify Actor Idea Radar. They are not the current submission direction.
-
